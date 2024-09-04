@@ -27,6 +27,7 @@ public class SchoolController {
 	public List<School> getdetails(){
 		System.out.println("Mapping over");
 	//	SchoolService service=new SchoolService();
+		System.out.print("practice");
 		return service.getAlldetails();
 		
 	}
