@@ -25,6 +25,7 @@ public class SchoolController {
 	
 	@GetMapping("alldetails")
 	public List<School> getdetails(){
+		System.out.println("Mapping over");
 	//	SchoolService service=new SchoolService();
 		return service.getAlldetails();
 		
